@@ -33,7 +33,10 @@ while True:
     #Immer mal schreiben, dass das skript noch lebt
     i += 1
     if i == 10:
-	   #um die Connection zur twitter API aufrecht zu erhalten
-        tweet_a_schwurbel.api.VerifyCredentials()
-        print("Es ist: "+ time.strftime("%d.%m.%Y %H:%M:%S"))
-        i = 0
+	#um die Connection zur twitter API aufrecht zu erhalten
+        try:
+            tweet_a_schwurbel.api.VerifyCredentials()
+            print("Es ist: "+ time.strftime("%d.%m.%Y %H:%M:%S"))
+            i = 0
+        except:
+            print("Beim Aufrechterhalten der Verbindung ist ein Fehler aufgetreten.\n In einer Minute wird es nochmal probiert")
