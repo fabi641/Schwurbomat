@@ -2,3 +2,5 @@ __pycache__/
 keys.py
 alte_teile_wirdnichtgebraucht/
 *.pyc
+log
+skript.sh

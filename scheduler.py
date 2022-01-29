@@ -8,7 +8,7 @@ import tweet_a_schwurbel
 def schwurbeln():
     print("Tweet this:\n")
     print("-------------------------------------")
-#    tweet_a_schwurbel.tweet()
+    tweet_a_schwurbel.tweet()
     print("-------------------------------------")
 
 #Hat das Twitter-API-Gedöns geklappt?
