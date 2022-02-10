@@ -189,13 +189,13 @@ def schwurbo():
 
 #twittert geschwurbel
 def tweet():    
-    schwurbeltweet = schwurbo() + "\n" + "#dailyschwurbel #Schwurbel #Geschwurbel #Eso #Spinner #Schwurbomat\n" + get_random_hashtags()
+    schwurbeltweet = schwurbo() + "\n" + "#dailyschwurbel #Schwurbel #Geschwurbel #Eso #Spinner #Schwurbomat\n"# + get_random_hashtags()
     api.PostUpdate(schwurbeltweet)
     #debug
     print(schwurbeltweet)
 
 #Zum testen
 def tweettest():
-    schwurbeltweet = schwurbo() + "\n" + "#dailyschwurbel #Schwurbel #Geschwurbel #Eso #Spinner #Schwurbomat\n" + get_random_hashtags()
+    schwurbeltweet = schwurbo() + "\n" + "#dailyschwurbel #Schwurbel #Geschwurbel #Eso #Spinner #Schwurbomat\n"# + get_random_hashtags()
     print(schwurbeltweet)
 
